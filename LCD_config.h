@@ -1,0 +1,14 @@
+#ifndef LCD_CONFIG_H
+#define LCD_CONGIG_H
+
+
+/*DATA PORT SELECTION */
+#define LCD_DATAPORT  PORT_A
+
+/*COMMAND PORT SELSCTION*/
+#define LCD_CONTROLPORT PORT_B
+#define LCD_RS_PIN PIN_2
+#define LCD_RW_PIN PIN_1
+#define LCD_E_PIN PIN_0
+
+#endif
